@@ -11,7 +11,7 @@
 
 ## 프로젝트 기술스택
 **프론트엔드**
-<img src="https://img.shields.io/badge/HTML5-red?style=flat&logo=html&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-red?style=flat&logo=HTML5&logoColor=white"/>
 
 **백엔드**
 
