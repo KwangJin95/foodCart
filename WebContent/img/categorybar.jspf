@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<nav class="navbar navbar-expand-lg bg-primary sticky-top" data-bs-theme="dark" id="navbar">
+ <div class="container-fluid"> 
+ 	 <a class="navbar-brand" href="project/index.jsp">FOOD CART</a>
+ 	 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+		<form action="controller">	
+		<div class="collapse navbar-collapse" id="navbarColor01">
+			<ul class="navbar-nav me-auto">		
+				<li class="nav-item">
+					<a class="nav-link" href="controller?type=categorySearch&categoryCode=100">육류/해산물/계란</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="controller?type=categorySearch&categoryCode=200">채소/과일</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="controller?type=categorySearch&categoryCode=300">간편식</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="controller?type=categorySearch&categoryCode=400">간식</a>
+				</li> 
+				<li class="nav-item">
+					<a class="nav-link" href="controller?type=categorySearch&categoryCode=500">음료</a>
+				</li> 		
+				<li class="nav-item">
+					<a class="nav-link" href="controller?type=categorySearch&categoryCode=600">유제품</a>
+				</li>  
+				<li class="nav-item">
+					<a class="nav-link" href="controller?type=categorySearch&categoryCode=700">건강식품</a>
+				</li>
+		
+			</ul>	
+		</div>
+		</form>	
+		<form action="controller" onsubmit="return searchName()" class="d-flex">	 
+			<input class="form-control me-sm-2" type="search" placeholder="Search" id="search" name="productName" aria-laber="Search">
+			 <button class="btn btn-secondary my-2 my-sm-0" type="submit">search</button>		 
+			<input type="hidden" name="type" value="search">
+		</form>
+		
+		
+	</div>
+ </nav>

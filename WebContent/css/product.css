@@ -1,0 +1,122 @@
+/* productDetail.jsp */
+
+body {
+	margin-left: 100px;
+}
+#cnt {
+	width: 40%;
+}
+#photo {
+	width: 350px;
+}
+#detail1 {
+	vertical-align: bottom;
+}
+#detail2 {
+	text-align: right;
+}
+#center {
+	text-align: center;
+}
+#hr {
+	width: 50%;
+}
+#category {
+	text-align: center;
+	font-size: 50px;
+}
+/* productList.jsp */
+.col {
+	width: 10%;
+}
+/* purchase.jsp 화면 */
+.listImg {
+	width: 100px;
+}
+.list {
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+#total {
+	text-align: right;
+}
+#payment {
+	text-align: right;
+}
+
+/* purchaseCommit.jsp 화면*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	appearance: none;
+	margin: 0;
+}
+.creditNum, .foreignNum, .phonePayNum {
+    width: 15%;
+}
+#paymentField {
+    width: 35%;
+    margin-left: auto;
+	margin-right: auto;
+}
+#paymentLogo {
+	margin-left: 300px;
+}
+#paybutton {
+	text-align: right;
+	margin-right: 20px;
+}
+
+/* productUpdate.jsp 화면 */
+input[type="number"] {
+	text-align: right;
+}
+input {
+	font-size: 15px;
+}
+option {
+	font-size: 20px;
+}
+.container {		/* update화면 전체 데이터 */
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	margin: 0 auto;
+	width: 1040px;
+}
+#field {			/* 제품 상세 화면 */
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	margin: 0 auto;
+}
+fieldset {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	font-size: 20px;
+	height: 300px;
+	
+}
+.button {
+	text-align: center;
+	width: 100%;
+}
+#verticalhr {
+	height:60vh;
+	width:0.1vw;
+	border-width:0.1;
+	color:#000;
+	background-color:#000;
+}
+#updateimg {
+	width: 300px;
+}
+.summary {
+	padding-left: 30px; 
+	width: 200px;
+}
