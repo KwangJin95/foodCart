@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="QA">
+
+	<!-- select 태그 3개 속성 id, resultType, parameterType
+	id : 사용할 명칭(필수항목), 현재 매퍼파일에서 유일한 이름 사용
+	resultType : 조회 결과값 저장하기 위한 데이터 타입(1개 데이터에 대한 타입지정)
+	parameterType : 전달 받은 파라미터 데이터의 타입 지정(선택적)
+	-->
+	<!-- QA게시글 건수 조회 -->
+	<select id="getQaCount" resultType="int">
+		SELECT COUNT(*) FROM QA
+	</select>
+	
+	<!-- 회원용 내QA게시글 전체 조회 -->
+	<select id="selectQA" resultType="com.mystudy.model.vo.QAVO">
+		SELECT *
+		FROM QA
+		WHERE MEMID = #{memid}
+		ORDER BY QA_ID DESC
+	</select>
+
+ 	<!-- 페이징 처리 -->
+	<select id="selectQAPage" resultType="com.mystudy.model.vo.QAVO"
+			parameterType="map">
+		SELECT *
+		FROM (SELECT ROWNUM AS RNUM, Q.*
+		FROM (SELECT *
+		FROM QA
+		WHERE MEMID != 'admin'
+		ORDER BY QA_ID DESC) Q
+		)
+		WHERE RNUM BETWEEN #{begin} AND #{end}
+	</select>
+
+	<!-- QA게시글 하나 조회 -->
+	<select id="selectQAById" resultType="com.mystudy.model.vo.QAVO" parameterType="int">
+		SELECT * FROM QA WHERE QA_ID = #{qaId}
+	</select>
+
+	<!-- 게시글 상세-->
+	<select id="QADetail" resultType="com.mystudy.model.vo.QAVO" parameterType="int">
+		SELECT QA_ID, MEMID, TITLE, CONTENT, RDATE, CATEGORY, PRODUCTCODE
+		FROM QA
+		WHERE QA_ID = #{qaId}
+	</select>
+
+	<!-- 답변 게시글 상세-->
+	<select id="QAAnswerDetail" resultType="com.mystudy.model.vo.QAVO" parameterType="int">
+		SELECT QA_ID, MEMID, TITLE, CONTENT, RDATE, CATEGORY, PRODUCTCODE
+		FROM QA
+		WHERE PARENT_QA_ID = #{qaId}
+	</select>
+	
+	<!-- QA게시글 데이터 입력 -->
+	<insert id="insertQA" parameterType="com.mystudy.model.vo.QAVO">
+		INSERT INTO QA (QA_ID, MEMID, PRODUCTCODE, CATEGORY, TITLE, RDATE, CONTENT, IMG, PARENT_QA_ID)
+		VALUES (QA_ID_SEQUENCE.NEXTVAL, #{memid}, #{productCode}, #{category}, #{title}, SYSDATE, #{content}, #{img}, #{parentQaId})
+	</insert>
+
+	<!-- 게시글 삭제 -->
+	<delete id="deleteQA" parameterType="int">
+		DELETE FROM QA WHERE QA_ID = #{qaId}
+	</delete>
+
+	<!-- 게시글 수정 -->
+	<update id="updateQA" parameterType="com.mystudy.model.vo.QAVO">
+		UPDATE QA
+		SET TITLE = #{title},
+		CONTENT = #{content}
+		WHERE QA_ID = #{qaId}
+	</update>
+
+	<!-- 답글 입력 -->
+	<insert id="insertAnswer" parameterType="com.mystudy.model.vo.QAVO">
+		INSERT INTO QA (QA_ID, MEMID, PRODUCTCODE, CATEGORY, RDATE, TITLE, CONTENT, PARENT_QA_ID)
+		VALUES (QA_ID_SEQUENCE.NEXTVAL, #{memid}, #{productCode}, #{category}, SYSDATE, #{title}, #{content}, #{parentQaId})
+	</insert>
+
+	<!-- 답글 삭제 -->
+	<delete id="deleteAnswer" parameterType="int">
+		DELETE FROM QA WHERE PARENT_QA_ID = #{parentQaId}
+	</delete>
+</mapper>
+
+
+
+
+
+

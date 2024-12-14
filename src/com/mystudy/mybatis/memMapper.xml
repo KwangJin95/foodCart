@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Member"> 
+	
+	<!-- 로그인 계정 정보 -->
+	<select id="login" parameterType="map" resultType="MemberVO">
+		SELECT *
+		  FROM MEMBER
+		 WHERE ID = #{id} 
+		   AND PASSWORD = #{password}
+	</select>
+
+	<!-- 아이디 검색 -->
+	<select id="selectOneId" parameterType="string" resultType="MemberVO">
+		SELECT *
+		  FROM MEMBER
+		 WHERE ID = #{id} 
+	</select>
+	
+	<!-- 이메일 검색 -->
+	<select id="selectOneEmail" parameterType="string" resultType="MemberVO">
+		SELECT *
+		  FROM MEMBER
+		 WHERE EMAIL = #{email}
+	</select>
+	
+	<!-- 아이디 찾기 (핸드폰 번호, 이메일 입력받음) -->
+	<select id="findId" parameterType="map" resultType="string">
+		SELECT ID
+		  FROM MEMBER
+		 WHERE NAME  = #{name}
+		   AND PHONE = #{phone}
+		   AND EMAIL = #{email}
+	</select>
+	
+	<!-- 비밀번호 찾기 (아이디, 핸드폰 번호, 이메일, 주소 입력받음) -->
+	<select id="findPassword" parameterType="map" resultType="string">
+		SELECT PASSWORD
+		  FROM MEMBER
+		 WHERE      ID = #{id}
+		   AND   PHONE = #{phone}
+		   AND   EMAIL = #{email} 
+		   AND ADDRESS = #{address} 
+	</select>
+	
+	<!-- 회원 가입 -->
+	<insert id="createMember" parameterType="MemberVO">
+		INSERT INTO MEMBER (ID, PASSWORD, NAME, PHONE, EMAIL, ADDRESS)
+		VALUES 			   (#{id}, #{password}, #{name}, #{phone}, #{email}, #{address})
+	</insert>
+	
+	
+	<!-- 탈퇴하기, 회원정보 삭제 -->
+	<delete id="deleteOne" parameterType="string">
+		DELETE FROM MEMBER
+		 WHERE ID = #{id}
+	</delete>
+	
+	<!-- ************************* 관리자 ****************************** -->
+	<select id="getTotalCount" resultType="int">
+		SELECT COUNT (*)
+		  FROM MEMBER
+	</select>
+	
+	<select id="getKeywordCount" resultType="int" parameterType="map">
+		SELECT COUNT(*)
+		  FROM MEMBER
+		<where>
+			<if test="idx == 1">
+				ID LIKE '%' || #{keyword} || '%'
+			</if>
+			<if test="idx == 2">
+				NAME LIKE '%' || #{keyword} || '%'
+			</if>
+			<if test="idx == 3">
+				PHONE LIKE '%' || #{keyword} || '%'
+			</if>
+			<if test="idx == 4">
+				EMAIL LIKE '%' || #{keyword} || '%'
+			</if>
+			<if test="idx == 5">
+				ADDRESS LIKE '%' || #{keyword} || '%'
+			</if>
+			<if test="idx == 6">
+				REGDATE > #{keyword}
+			</if>
+		</where>
+	</select>
+	
+	<!-- 회원 전체 정보 조회 -->
+	<select id="selectMembers" resultType="MemberVO" parameterType="map">
+		SELECT *		
+		  FROM (SELECT ROWNUM AS RNUM, M.*
+		  		  FROM (SELECT *
+		  		  		  FROM MEMBER
+		  		  		  <where>
+							<if test="idx == 1">
+								ID LIKE '%' || #{keyword} || '%'
+							</if>
+							<if test="idx == 2">
+								NAME LIKE '%' || #{keyword} || '%'
+							</if>
+							<if test="idx == 3">
+								PHONE LIKE '%' || #{keyword} || '%'
+							</if>
+							<if test="idx == 4">
+								EMAIL LIKE '%' || #{keyword} || '%'
+							</if>
+							<if test="idx == 5">
+								ADDRESS LIKE '%' || #{keyword} || '%'
+							</if>
+							<if test="idx == 6">
+								REGDATE > #{keyword}
+							</if>
+		  		  		  </where> 
+			      		  ORDER BY ID) M
+			         )
+	 		WHERE RNUM BETWEEN #{begin} AND #{end}
+	</select>
+	
+	<!-- 회원 본인 정보 수정 -->
+	<update id="updateMyInfo" parameterType="MemberVO">
+		UPDATE MEMBER
+		   SET PASSWORD = #{password},
+		           NAME = #{name},
+		          PHONE = #{phone},
+		          EMAIL = #{email},
+		        ADDRESS = #{address}
+		 WHERE ID = #{id}
+	</update>
+	
+	<!-- 회원 정보 수정 -->
+	<update id="updateMember" parameterType="MemberVO">
+		UPDATE MEMBER
+		   SET PASSWORD = #{password},
+		           NAME = #{name},
+		          PHONE = #{phone},
+		          EMAIL = #{email},
+		        ADDRESS = #{address}
+		 WHERE ID = #{id}
+	</update>	
+</mapper>

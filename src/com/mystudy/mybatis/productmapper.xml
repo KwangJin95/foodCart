@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="product">
+
+	<!-- 제품 확인 -->
+	<select id="selectOne" resultType="productVO" parameterType="string">
+		SELECT PRODUCT_NAME, PRICE, PRODUCT_CODE, STOCK, 
+			   DETAIL, SALE_COUNT, CATEGORY_CODE, USE_YN 
+		  FROM PRODUCT
+		 WHERE PRODUCT_CODE = #{productCode}
+	</select>
+	
+	<!-- 제품 정보 전체 보기(제품코드 오름차순) -->
+	<select id="list" resultType="productVO">
+		SELECT PRODUCT_NAME, PRICE, PRODUCT_CODE, STOCK, 
+			   DETAIL, SALE_COUNT, CATEGORY_CODE, USE_YN
+		  FROM PRODUCT
+		 ORDER BY PRODUCT_CODE
+	</select>
+	
+	<!-- 제품 정보 전체 보기(판매량 내림차순) -->
+	<select id="saleList" resultType="productVO">
+		SELECT PRODUCT_NAME, PRICE, PRODUCT_CODE, STOCK, 
+			   DETAIL, SALE_COUNT, CATEGORY_CODE, USE_YN
+		  FROM PRODUCT
+		 WHERE USE_YN = 'Y'
+		 ORDER BY SALE_COUNT DESC
+	</select>
+	
+	<!-- 카테고리별 제품 정보 전체 보기(판매량 내림차순) -->
+	<select id="categorySaleNum" resultType="productVO" parameterType="int">
+		SELECT PRODUCT_NAME, PRICE, PRODUCT_CODE, STOCK, 
+			   DETAIL, SALE_COUNT, CATEGORY_CODE, USE_YN
+		  FROM PRODUCT
+		 WHERE CATEGORY_CODE = #{categoryCode} AND USE_YN = 'Y'
+		 ORDER BY SALE_COUNT DESC
+	</select>
+	
+	<!-- 제품정보 등록 -->
+	<insert id="insert" parameterType="productVO">
+		INSERT INTO PRODUCT
+			   (PRODUCT_NAME, PRICE, PRODUCT_CODE,
+			   STOCK, DETAIL, CATEGORY_CODE, USE_YN)
+		VALUES (#{productName}, #{price}, #{productCode},
+			   #{stock}, #{detail}, #{categoryCode}, #{useYn})
+	</insert>
+	
+	<!-- 제품정보 수정(전체정보수정) -->
+	<update id="updateAll" parameterType="productVO">
+		UPDATE PRODUCT
+	  	   SET PRODUCT_NAME = #{productName},
+	   	       PRICE = #{price},
+	   	   	   DETAIL = #{detail}
+		 WHERE PRODUCT_CODE = #{productCode}
+	</update>
+	
+	<!-- 제품정보 수정(판매량 수정) -->
+	<update id="updateSaleCnt" parameterType="productVO">
+		UPDATE PRODUCT
+	  	   SET STOCK = #{stock},
+	  	       SALE_COUNT = #{saleCount}
+		 WHERE PRODUCT_CODE = #{productCode}
+	</update>
+	
+	<!-- 제품정보 수정(재고 수정) -->
+	<update id="updateStock" parameterType="productVO">
+		UPDATE PRODUCT
+	  	   SET STOCK = #{stock},
+	  	       USE_YN = #{useYn}
+		 WHERE PRODUCT_CODE = #{productCode}
+	</update>
+	
+	<!-- 주문정보 등록 -->
+	<insert id="insertOrder" parameterType="orderVO">	
+		INSERT INTO ORDER_INFO
+			   (ID, ORDER_NUMBER, PAYMENT, PRODUCT_CODE, 
+			   ORDER_COUNT, TOTAL_PRICE, ADDRESS, 
+			   PURCHASE_DATE)
+		VALUES (#{id}, #{orderNumber}, #{payment}, #{productCode}, 
+				#{orderCount}, #{totalPrice}, #{address}, 
+				SYSDATE)
+	</insert>
+	
+	<!-- 주문정보 전체 보기(회원) -->
+	<select id="orderList" resultType="orderVO" parameterType="orderVO">
+		SELECT ID, ORDER_NUMBER, PAYMENT, PRODUCT_CODE, 
+			   ORDER_COUNT, TOTAL_PRICE, ADDRESS, PURCHASE_DATE
+		  FROM ORDER_INFO
+		 WHERE ID = #{id} AND TO_CHAR(PURCHASE_DATE, 'YY/MM/DD') = TO_CHAR(TO_DATE(#{purchaseDate}, 'YY/MM/DD'), 'YY/MM/DD')
+		 ORDER BY ORDER_NUMBER
+	</select>
+	
+	<select id="orderList1" resultType="orderVO" parameterType="orderVO">
+		SELECT ID, ORDER_NUMBER, PAYMENT, PRODUCT_CODE, 
+			   ORDER_COUNT, TOTAL_PRICE, ADDRESS, PURCHASE_DATE
+		  FROM ORDER_INFO
+		 WHERE ID = #{id}
+		 ORDER BY ORDER_NUMBER
+	</select>
+</mapper>

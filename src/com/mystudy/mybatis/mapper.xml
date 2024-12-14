@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="project">
+	<!-- 상품명검색 -->
+	<select id="searchName" parameterType="string" resultType="com.mystudy.model.vo.ProductVO">
+		SELECT PRODUCT_NAME, PRICE, PRODUCT_CODE, STOCK, DETAIL, SALE_COUNT
+        , CATEGORY_CODE, USE_YN
+		FROM PRODUCT
+		WHERE PRODUCT_NAME LIKE '%'||#{productName}||'%' AND USE_YN = 'Y'
+	</select>
+	
+	<!-- 검색한 제품의 수량 -->
+	<select id="nameCount" resultType="int">
+	SELECT COUNT(*)
+	FROM PRODUCT
+	WHERE PRODUCT_NAME LIKE '%'||#{productName}||'%' AND USE_YN = 'Y'
+	</select>
+	
+	<!-- 카테고리별 상품 표시 -->
+	<select id="categorySelect" parameterType="int" resultType="com.mystudy.model.vo.ProductVO">
+		SELECT PRODUCT_NAME, PRICE, PRODUCT_CODE, STOCK, DETAIL, SALE_COUNT
+        , CATEGORY_CODE, USE_YN
+		FROM PRODUCT
+		WHERE CATEGORY_CODE = #{categoryCode} AND USE_YN = 'Y'
+	</select>
+	
+	<!-- 카테고리 대분류 보여주게 하려고 했던거 -->
+	<select id = "categoryNameView" parameterType="int" resultType="com.mystudy.model.vo.CategoryVO">
+		SELECT CATEGORY_CODE, MAIN_CATEGORY, SUB_CATEGORY
+		FROM CATEGORY
+		WHERE CATEGORY_CODE = #{categoryCode}	
+	</select>	
+	
+	<!-- 리뷰 리스트 -->
+	<select id= "reviewList" resultType="com.mystudy.model.vo.ReviewVO">
+	    SELECT *
+        FROM REVIEW
+	</select>
+	
+	<select id="productreview" resultType="com.mystudy.model.vo.ReviewVO" parameterType="string">
+		SELECT *
+		FROM REVIEW
+		WHERE PRODUCT_CODE = #{productCode }		
+	</select>
+	
+	<!-- 페이징 처리에서 필요하다고 했던 카운트 세기 -->
+	<select id = "reviewCount" resultType="int">
+		SELECT COUNT(*) FROM REVIEW
+	</select>
+	
+	<select id = "reviewCount2" resultType="int" parameterType="string">
+		SELECT COUNT(*) FROM REVIEW
+		WHERE PRODUCT_CODE = #{productCode}
+	</select>
+	
+	<select id = "reviewCountMy" resultType="int" parameterType="string">
+		SELECT COUNT(*) FROM REVIEW
+		 WHERE ID = #{id}
+	</select>
+	
+	
+	<!-- 페이징처리에 필요한 어찌고 -->
+	<select id="reviewPaging" resultType="com.mystudy.model.vo.ReviewVO" parameterType="map">
+		SELECT * 
+			FROM (
+			  SELECT ROWNUM as RN, R.*
+			  FROM (
+			    SELECT * FROM REVIEW
+			    ORDER BY REVIEW_NUM DESC
+			  ) R
+			)
+			WHERE RN BETWEEN #{begin} AND #{end}
+	</select>
+	
+	<select id="reviewPagingtwo" resultType="com.mystudy.model.vo.ReviewVO" parameterType="map">
+		SELECT * 
+			FROM (
+			  SELECT ROWNUM as RN, R.*
+			  FROM (
+			    SELECT * FROM REVIEW
+			    WHERE PRODUCT_CODE = #{productCode}
+			    ORDER BY REVIEW_NUM DESC
+			  ) R
+			)
+			WHERE RN BETWEEN #{begin} AND #{end}
+	</select>
+	
+	<select id="reviewPagingthree" resultType="com.mystudy.model.vo.ReviewVO" parameterType="map">
+		SELECT * 
+			FROM (
+			  SELECT ROWNUM as RN, R.*
+			  FROM (
+			    SELECT * 
+			    FROM REVIEW
+			    WHERE ID = #{id}
+			    ORDER BY REVIEW_NUM DESC
+			  ) R
+			)
+			WHERE RN BETWEEN #{begin} AND #{end}
+	</select>
+	
+	
+	<!-- 리뷰 작성 -->
+	<insert id = "reviewWrite" parameterType="com.mystudy.model.vo.ReviewVO">
+		INSERT INTO REVIEW (ID, CONTENT, PRODUCT_CODE, RECORD, REVIEW_NUM, REGDATE)
+		VALUES (#{id}, #{content}, #{productCode}, #{record}, REVIEW_NUM.NEXTVAL, SYSDATE)
+	</insert>
+	
+	<!-- 리뷰 수정 -->
+	<update id = "updateReview" parameterType="com.mystudy.model.vo.ReviewVO">
+		UPDATE REVIEW  
+    		SET ID = #{id}
+    			, CONTENT = #{content}
+    			, PRODUCT_CODE = #{productCode}
+        		, RECORD = #{record}
+        		, REGDATE = SYSDATE
+		WHERE REVIEW_NUM = #{reviewNum}
+	</update>
+	
+	
+	<!-- 리뷰 삭제 -->
+	<delete id = "deleteReview" parameterType="int" >
+		DELETE REVIEW WHERE REVIEW_NUM = #{reviewNum}		
+	</delete>
+	
+	
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
