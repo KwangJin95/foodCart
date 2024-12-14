@@ -24,3 +24,7 @@
 <img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat-square&logo=java&logoColor=white"/>
 
 ## 프로젝트 관련 문서
+
+
+## ERD
+![erd2](https://github.com/user-attachments/assets/99fa3e40-a7d9-433b-9d07-8015e4442958)
