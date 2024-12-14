@@ -12,12 +12,12 @@
 ## 프로젝트 기술스택
 **프론트엔드**
 
-<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square"/> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square"/> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square"/> <img src="https://img.shields.io/badge/Ajax-66FFFF?style=flat-square"/> 
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square"/> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square"/> <img src="https://img.shields.io/badge/Ajax-66FFFF?style=flat-square"/> 
 <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square"/>
 
 **백엔드**
 
-<img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/ORACLE-F80000?style=flat-square&logo=oracle&logoColor=white"/> <img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black"/>
+<img src="https://img.shields.io/badge/Java8-007396?style=flat-square"/> <img src="https://img.shields.io/badge/ORACLE-F80000?style=flat-square"/> <img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black"/>
 
 **개발 툴**
 
