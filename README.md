@@ -16,7 +16,7 @@
 <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jQuery&logoColor=white"/>
 
 
-<img src="https://img.shields.io/badge/HTML5-red?style=flat&logo=HTML5&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-blue?style=flat&logo=Java&logoColor=white"/>
 
 **백엔드**
 
