@@ -105,7 +105,7 @@ integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQI
 		
 	}
 	
-	<%@ include file="../img/footerStyle.jspf" %>
+	<%@ include file="./img/footerStyle.jspf" %>
 </style>
 </head>
 <body>
@@ -283,5 +283,5 @@ integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgr
     }
 </script>
 </body>
-<%@ include file="img/footer.jspf" %>	
+<%@ include file="./img/footer.jspf" %>	
 </html>
