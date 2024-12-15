@@ -239,3 +239,11 @@
 - 삭제하기 버튼 클릭 시 “정말로 삭제하시겠습니까?” 메시지 표시 후 해당 회원 정보 삭제
 - 회원 등록 버튼 클릭 시 회원 등록 화면으로 이동
 ---
+
+## 사용법
+- version : JDK 1.8, oracle 11g (port:1521 / service:XE), Tomcat 9
+- encoding : UTF-8
+- libraries : jstl-1.2, mybatis-3.5.13, ojdbc6
+
+1. 오라클 설치 후 관리자 계정에서 root 폴더의 script.sql 파일 실행 -> src/com/mystudy/mybatis/config.xml에서 DB 설정정보 참고
+2. WEB-INF/lib 폴더에 필요한 library 파일 존재 -> eclipse에서 구동시 build path에 등록 필요
