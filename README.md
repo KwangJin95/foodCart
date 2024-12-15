@@ -112,7 +112,7 @@
 
 |기능|화면|
 |:--|:--|
-|회원가입(등록)|<img src="https://github.com/user-attachments/assets/24e0497d-1b9c-4825-a4b3-a1c91030eb24" width="450" height="330">|
+|회원가입(등록)|<img src="https://github.com/user-attachments/assets/24e0497d-1b9c-4825-a4b3-a1c91030eb24" width="520" height="390">|
 
 - 중복 확인 버튼 클릭 시 아이디 또는 이메일이 미입력이거나 이미 존재하는 경우 해당하는 값에 대한 경고 메시지 표시
 - 중복 확인 버튼 클릭 시 DB 조회 후 DB에 존재하지 않아 사용 가능한 아이디 또는 이메일인 경우 사용 가능 메시지 표시 후 확인 완료 버튼으로 바뀌고 버튼을 비활성화 처리
