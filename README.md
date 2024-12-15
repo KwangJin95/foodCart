@@ -34,7 +34,7 @@
 
 |기능|화면|기능|화면|
 |:--|:--|:--|:--|
-|상품 조회|<img src="https://github.com/user-attachments/assets/4381f3a7-13bb-4e15-b96b-f221db32fb01" width="350" height="240">|상품 관리|<img src="https://github.com/user-attachments/assets/4381f3a7-13bb-4e15-b96b-f221db32fb01" width="350" height="240">|
+|상품 조회|<img src="https://github.com/user-attachments/assets/4381f3a7-13bb-4e15-b96b-f221db32fb01" width="320" height="240">|상품 관리|<img src="https://github.com/user-attachments/assets/4381f3a7-13bb-4e15-b96b-f221db32fb01" width="320" height="240">|
 |장바구니 관리||주문 및 목록 조회||
 |문의 조회||문의 답변||
 
