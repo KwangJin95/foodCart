@@ -41,9 +41,9 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td><b>회원가입(등록)</b>b></td>
+    <td><b>회원가입(등록)</b></td>
     <td><img src="https://github.com/user-attachments/assets/bace1b2a-b594-47b7-b73d-f0dcd022521e" width="300" height="240"></td>
-    <td><b>로그인</b>b></td>
+    <td><b>로그인</b></td>
     <td><img src="https://github.com/user-attachments/assets/0286a7a0-4b1d-464f-ac79-3e710d4ed7a3" width="300" height="240"></td>
   </tr>
   <tr>
