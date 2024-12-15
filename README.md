@@ -116,7 +116,7 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td>회원가입(등록)</td>
+    <td><b>회원가입(등록)</b></td>
     <td width="85%"><img src="https://github.com/user-attachments/assets/24e0497d-1b9c-4825-a4b3-a1c91030eb24"></td>
   </tr>
 </table>
@@ -137,26 +137,75 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td>로그인</td>
+    <td><b>로그인</b></td>
     <td width="85%"><img src="https://github.com/user-attachments/assets/1eef93c1-e941-4eb3-890e-e329f97ffe00"></td>
+  </tr>
+</table>
+
+
+---
+
+<table>
+  <tr>
+    <th>기능</th>
+    <th>화면</th>
+  </tr>
+  <tr>
+    <td><b>아이디 찾기</b></td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/31c3d5b5-bafd-4c90-9970-768a1c0cc9af"></td>
   </tr>
 </table>
 
 ---
 
-|:--|:--|
-|아이디 찾기|<img src="" width="480" height="360">|
+<table>
+  <tr>
+    <th>기능</th>
+    <th>화면</th>
+  </tr>
+  <tr>
+    <td><b>비밀번호 찾기</b></td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/2fc549ca-7ab4-46b5-9974-28b797fe187b"></td>
+  </tr>
+</table>
 
-|:--|:--|
-|비밀번호 찾기|<img src="" width="480" height="360">|
+---
 
-|:--|:--|
-|내 정보 조회 및 수정|<img src="" width="480" height="360">|
+<table>
+  <tr>
+    <th>기능</th>
+    <th>화면</th>
+  </tr>
+  <tr>
+    <td><b>내 정보 조회 및 수정</b></td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/8e1f8c6e-c7cc-4364-bdd0-044f84636bd1"></td>
+  </tr>
+</table>
 
-|:--|:--|
-|탈퇴|<img src="" width="480" height="360">|
+---
 
-|:--|:--|
-|회원정보 관리|<img src="" width="480" height="360">|
+<table>
+  <tr>
+    <th>기능</th>
+    <th>화면</th>
+  </tr>
+  <tr>
+    <td><b>탈퇴</b></td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/3c1baaa8-c32a-4213-a1f0-ff8208c6fb67"></td>
+  </tr>
+</table>
+
+---
+
+<table>
+  <tr>
+    <th>기능</th>
+    <th>화면</th>
+  </tr>
+  <tr>
+    <td><b>회원정보 관리</b></td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/d6e935fc-a32c-48c1-b6ad-81aeb297e4dc"></td>
+  </tr>
+</table>
 
 ---
