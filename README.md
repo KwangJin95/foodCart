@@ -1,4 +1,4 @@
-# 쇼핑몰(식품) [FOOD CART]
+# FOOD CART _ 쇼핑몰(식품)
 
 
 * **이름** : foodCart (푸드카트)
