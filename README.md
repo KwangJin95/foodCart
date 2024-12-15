@@ -42,25 +42,25 @@
   </tr>
   <tr>
     <td><b>회원가입(등록)</b></td>
-    <td><img src="https://github.com/user-attachments/assets/bace1b2a-b594-47b7-b73d-f0dcd022521e" width="300" height="240"></td>
+    <td><img src="https://github.com/user-attachments/assets/bace1b2a-b594-47b7-b73d-f0dcd022521e" width="320" height="240"></td>
     <td><b>로그인</b></td>
-    <td><img src="https://github.com/user-attachments/assets/0286a7a0-4b1d-464f-ac79-3e710d4ed7a3" width="300" height="240"></td>
+    <td><img src="https://github.com/user-attachments/assets/0286a7a0-4b1d-464f-ac79-3e710d4ed7a3" width="320" height="240"></td>
   </tr>
   <tr>
     <td><b>아이디 찾기</b></td>
-    <td><img src="https://github.com/user-attachments/assets/0cb58ece-2ea7-471d-9eaa-a86fe3fe9085" width="300" height="240"></td>
+    <td><img src="https://github.com/user-attachments/assets/0cb58ece-2ea7-471d-9eaa-a86fe3fe9085" width="320" height="240"></td>
     <td><b>비밀번호 찾기</b></td>
-    <td><img src="https://github.com/user-attachments/assets/7bdacee6-8f84-4339-a83f-65583b650857" width="300" height="240"></td>
+    <td><img src="https://github.com/user-attachments/assets/7bdacee6-8f84-4339-a83f-65583b650857" width="320" height="240"></td>
   </tr>
   <tr>
     <td><b>내 정보 수정</b></td>
-    <td><img src="https://github.com/user-attachments/assets/779ff8dd-4b33-4ac5-9b5d-d35e014ab03a" width="300" height="240"></td>
+    <td><img src="https://github.com/user-attachments/assets/779ff8dd-4b33-4ac5-9b5d-d35e014ab03a" width="320" height="240"></td>
     <td><b>탈퇴</b></td>
-    <td><img src="https://github.com/user-attachments/assets/98d8b992-2d84-4439-a53c-e00ff81b5c62" width="300" height="240"></td>
+    <td><img src="https://github.com/user-attachments/assets/98d8b992-2d84-4439-a53c-e00ff81b5c62" width="320" height="240"></td>
   </tr>
   <tr>
     <td><b>회원정보 관리</b></td>
-    <td><img src="https://github.com/user-attachments/assets/0b4462da-36f4-4215-8943-062f5b9098b7" width="300" height="240"></td>
+    <td><img src="https://github.com/user-attachments/assets/0b4462da-36f4-4215-8943-062f5b9098b7" width="320" height="240"></td>
   </tr>
 </table>
 
