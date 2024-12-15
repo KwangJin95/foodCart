@@ -120,6 +120,7 @@
     <td width="85%"><img src="https://github.com/user-attachments/assets/24e0497d-1b9c-4825-a4b3-a1c91030eb24"></td>
   </tr>
 </table>
+
 - 중복 확인 버튼 클릭 시 아이디 또는 이메일이 미입력이거나 이미 존재하는 경우 해당하는 값에 대한 경고 메시지 표시
 - 중복 확인 버튼 클릭 시 DB 조회 후 DB에 존재하지 않아 사용 가능한 아이디 또는 이메일인 경우 사용 가능 메시지 표시 후 확인 완료 버튼으로 바뀌고 버튼을 비활성화 처리
 - 중복 확인 완료된 경우 아이디 또는 이메일에 새로운 값을 입력하면 중복 확인 버튼으로 활성화
@@ -130,8 +131,18 @@
 - 취소 버튼 클릭 시 이전 페이지로 이동
 ---
 
-|:--|:--|
-|로그인|<img src="https://github.com/user-attachments/assets/1eef93c1-e941-4eb3-890e-e329f97ffe00" width="480" height="360">|
+<table>
+  <tr>
+    <th>기능</th>
+    <th>화면</th>
+  </tr>
+  <tr>
+    <td>로그인</td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/1eef93c1-e941-4eb3-890e-e329f97ffe00"></td>
+  </tr>
+</table>
+
+---
 
 |:--|:--|
 |아이디 찾기|<img src="" width="480" height="360">|
