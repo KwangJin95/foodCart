@@ -87,7 +87,8 @@
 </div>
         </c:when>
     </c:choose>
+<%@ include file="../img/footer.jspf" %>
 </body>
-<jsp:include page="../img/footer.jspf"/>
+
 </html>
 

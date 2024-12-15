@@ -110,14 +110,14 @@ integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQI
 
 
 <div id="header_img">
-	<a href="../project/index.jsp">
-		<img src="../project/img/logo.png">
+	<a href="index.jsp">
+		<img src="img/logo.png">
     </a>
 </div>
 
 <nav class="navbar navbar-expand-lg justify-content-center sticky-top" data-bs-theme="dark" id="fixed">
  <div class="container-fluid"> 
- 	 <a class="navbar-brand" href="../project/index.jsp">FOOD CART</a>
+ 	 <a class="navbar-brand" href="index.jsp">FOOD CART</a>
  	 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
