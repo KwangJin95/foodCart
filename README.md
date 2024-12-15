@@ -46,9 +46,9 @@
 
 |기능|화면|기능|화면|
 |:--|:--|:--|:--|
-|장바구니 관리|<img src="https://github.com/user-attachments/assets/232c2b6d-1513-4f62-ac88-20e06f55d3b8" width="320" height="240">|주문 및 목록 조회|<img src="https://github.com/user-attachments/assets/0893f443-e42b-4742-a1d7-519f5ad24d64" width="320" height="240">|
-|상품 조회|<img src="https://github.com/user-attachments/assets/a35b9de2-41df-4b9f-9670-af6fbe206c1e" width="320" height="240">|상품 관리|<img src="https://github.com/user-attachments/assets/459357de-91cc-43e4-b799-4ffca8887dec" width="320" height="240">|
-|문의 조회|<img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255" width="320" height="240">|문의 답변|<img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368" width="320" height="240">|
+|장바구니 관리|<img src="https://github.com/user-attachments/assets/232c2b6d-1513-4f62-ac88-20e06f55d3b8" width="300" height="240">|주문 및 목록 조회|<img src="https://github.com/user-attachments/assets/0893f443-e42b-4742-a1d7-519f5ad24d64" width="300" height="240">|
+|상품 조회|<img src="https://github.com/user-attachments/assets/a35b9de2-41df-4b9f-9670-af6fbe206c1e" width="320" height="240">|상품 관리|<img src="https://github.com/user-attachments/assets/459357de-91cc-43e4-b799-4ffca8887dec" width="300" height="240">|
+|문의 조회|<img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255" width="320" height="240">|문의 답변|<img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368" width="300" height="240">|
 
 ---
 ### 요약
