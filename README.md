@@ -302,7 +302,8 @@
 │          ├─controller                : controller
 │          ├─model                     : DAO, VO 파일
 │          └─mybatis                   : mybatis 설정, mapper xml 파일 / SqlSessionFactory 반환 java 파일
-└─WebContent
+|
+└─WebContent                           : 기타 jsp 파일
     ├─board                            : bootstrap css, js 파일
     ├─cart                             : 장바구니 jsp 파일
     ├─css                              : 상품 페이지 css 파일
