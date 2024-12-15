@@ -23,6 +23,7 @@
 
 ---
 ## 프로젝트 관련 문서
+<https://drive.google.com/drive/folders/1IiFT1U2YMJfbsPDQK5y7H2NuOwM-2iQ4?usp=drive_link>
 
 ---
 ## ERD
