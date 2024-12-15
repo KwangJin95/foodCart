@@ -97,17 +97,16 @@
 * **문의 관리** : 관리자는 문의 정보를 수정, 삭제 및 답변을 등록할 수 있다.
 
 ---
-### 내가 구현한 기능 미리보기
+### ✔️내가 구현한 기능 미리보기
 
-|기능|화면|
-|:--|:--|
-|회원가입|<img src="https://github.com/user-attachments/assets/bb7090a2-4ae6-4bdc-a43b-d1ab854d3a1e" width="480" height="360">|
-|상세내용|
-|로그인|<img src="" width="480" height="360">|
-|아이디 찾기||
-|비밀번호 찾기||
-|내 정보 조회 및 수정||
-|탈퇴||
-|회원정보 관리||
+|기능|화면|설명|
+|:--|:--|:--|
+|회원가입|<img src="https://github.com/user-attachments/assets/bb7090a2-4ae6-4bdc-a43b-d1ab854d3a1e" width="480" height="360">||
+|로그인|<img src="https://github.com/user-attachments/assets/3afcc437-200e-4a3c-a8bc-5fe1f0f46fb2" width="480" height="360">||
+|아이디 찾기|<img src="https://github.com/user-attachments/assets/eee8785c-4c20-4f39-a579-1d941e813679" width="480" height="360">||
+|비밀번호 찾기|<img src="https://github.com/user-attachments/assets/184fa7eb-6e55-49b4-9821-fd2bcf801013" width="480" height="360">||
+|내 정보 조회 및 수정|<img src="" width="480" height="360">||
+|탈퇴|<img src="https://github.com/user-attachments/assets/9ac4e5ec-a64e-4c00-8740-40f8af66a69c" width="480" height="360">||
+|회원정보 관리|<img src="https://github.com/user-attachments/assets/12a19cb6-4888-44db-bd6e-a788d84bc493" width="480" height="360">||
 
 ---
