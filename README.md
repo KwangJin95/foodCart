@@ -250,43 +250,25 @@
 
 ## 패키지 구조
 ```
-├─src
+├─src                         
 │  └─com
 │      └─mystudy
-│          ├─command
-│          │  ├─cart
-│          │  ├─category
-│          │  ├─member
-│          │  ├─order
-│          │  ├─product
-│          │  ├─qa
-│          │  └─review
-│          ├─common
-│          ├─controller
-│          ├─model
-│          │  ├─dao
-│          │  └─vo
-│          └─mybatis
+│          ├─command                   : service 
+│          ├─common                    : paging java 파일
+│          ├─controller                : controller
+│          ├─model                     : dao, vo 파일
+│          └─mybatis                   : mybatis 설정, mapper xml 파일 / SqlSessionFactory 반환 java 파일
 └─WebContent
-    ├─board
-    │  ├─css
-    │  └─js
-    ├─cart
-    ├─css
-    ├─img
-    ├─member
+    ├─board                            : bootstrap css, js 파일
+    ├─cart                             : 장바구니 jsp 파일
+    ├─css                              : 상품 페이지 css 파일
+    ├─img                              : image 파일 / menu, footer jspf 파일 
+    ├─member                           : 회원 jsp 파일
     ├─META-INF
-    ├─order
-    ├─photo
-    │  ├─100
-    │  └─200
-    ├─product
-    │  └─payment
-    │      ├─credit
-    │      ├─foreignCard
-    │      ├─paper
-    │      └─phonePay
-    ├─qa
+    ├─order                            : 주문 jsp 파일
+    ├─photo                            : 상품 image 파일
+    ├─product                          : 상품 jsp 파일
+    ├─qa                               : 문의 jsp 파일
     └─WEB-INF
-        └─lib
+        └─lib                          : 필요 library 파일
 ```
