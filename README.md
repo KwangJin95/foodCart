@@ -39,7 +39,7 @@
 
 |기능|화면|
 |:--|:--|
-|회원가입|https://github.com/user-attachments/assets/b51c5d69-87d0-4d9f-9057-bdc043283c18|
+|회원가입|![회원가입](https://github.com/user-attachments/assets/bb7090a2-4ae6-4bdc-a43b-d1ab854d3a1e)|
 |로그인||
 |아이디 찾기||
 |비밀번호 찾기||
