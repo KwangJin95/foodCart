@@ -313,5 +313,5 @@
     ├─product                          : 상품 jsp 파일
     ├─qa                               : 문의 jsp 파일
     └─WEB-INF
-        └─lib                          : 필요 library 파일
+        └─lib                          : 필요 library jar 파일
 ```
