@@ -101,8 +101,8 @@
 
 |기능|화면|
 |:--|:--|
-|회원가입|<img src="https://github.com/user-attachments/assets/bb7090a2-4ae6-4bdc-a43b-d1ab854d3a1e" width="320" height="240">|
-|로그인|<img src="" width="320" height="240">|
+|회원가입|<img src="https://github.com/user-attachments/assets/bb7090a2-4ae6-4bdc-a43b-d1ab854d3a1e" width="480" height="360">|
+|로그인|<img src="" width="480" height="360">|
 |아이디 찾기||
 |비밀번호 찾기||
 |내 정보 조회 및 수정||
