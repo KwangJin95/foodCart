@@ -101,11 +101,31 @@
 
 |기능|화면|설명|
 |:--|:--|:--|
-|회원가입|<img src="https://github.com/user-attachments/assets/bb7090a2-4ae6-4bdc-a43b-d1ab854d3a1e" width="480" height="360">||
+|회원가입(등록)|<img src="https://github.com/user-attachments/assets/bb7090a2-4ae6-4bdc-a43b-d1ab854d3a1e" width="480" height="360">| 아이디, 이메일 입력 창
+아이디 및 이메일 중복 확인 버튼
+- 미입력시 “~~를 입력하세요.” 메시지 표시
+- 입력 후 이미 존재하는 경우 “이미 존재하는 ~~입니다. 다시 입력해주세요.” 메시지 표시
+- 입력 후 존재하지 않고 이메일의 경우 @를 포함한 경우로 사용 가능한  경우 “사용 가능한 ~~ 입니다.” 메시지 표시 후 버튼을 “확인 완료” 버튼으로 바뀌고 비활성화 처리
+- 아이디 또는 이메일을 다시 입력(input 이벤트)하면 “중복 확인” 버튼으로 바뀌고 활성화 처리
+비밀번호, 비밀번호 확인, 이름 , 핸드폰 번호, 주소, 상세 주소 
+입력 창
+가입하기 버튼
+- 미입력 및 유효값, “중복 확인” 버튼 비활성화 체크 후 메시지 표시
+- (사용자) 회원가입 성공한 경우 메인 페이지로 이동 후 
+“회원가입 되었습니다. 메인 페이지로 이동합니다.” 메시지 표시
+- (관리자) 회원등록 성공한 경우 회원관리 화면으로 이동 후 
+“회원 등록 완료됐습니다.” 메시지 표시
+- (사용자) 회원가입 실패시  회원가입 화면으로 이동 후 
+“회원 등록 실패!” 메시지 표시
+- (관리자) 회원등록 실패시 회원관리 화면으로 이동 후 
+“회원 등록 실패!” 메시지 표시
+취소 버튼
+- 이전 페이지로 이동
+|
 |로그인|<img src="https://github.com/user-attachments/assets/3afcc437-200e-4a3c-a8bc-5fe1f0f46fb2" width="480" height="360">||
 |아이디 찾기|<img src="https://github.com/user-attachments/assets/eee8785c-4c20-4f39-a579-1d941e813679" width="480" height="360">||
 |비밀번호 찾기|<img src="https://github.com/user-attachments/assets/184fa7eb-6e55-49b4-9821-fd2bcf801013" width="480" height="360">||
-|내 정보 조회 및 수정|<img src="" width="480" height="360">||
+|내 정보 조회 및 수정|<img src="https://github.com/user-attachments/assets/063f5ba6-b2d5-49ab-888b-4b093eb6c052" width="480" height="360">||
 |탈퇴|<img src="https://github.com/user-attachments/assets/9ac4e5ec-a64e-4c00-8740-40f8af66a69c" width="480" height="360">||
 |회원정보 관리|<img src="https://github.com/user-attachments/assets/12a19cb6-4888-44db-bd6e-a788d84bc493" width="480" height="360">||
 
