@@ -117,7 +117,7 @@
   </tr>
   <tr>
     <td>회원가입(등록)</td>
-    <td width="90%"><img src="https://github.com/user-attachments/assets/24e0497d-1b9c-4825-a4b3-a1c91030eb24"></td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/24e0497d-1b9c-4825-a4b3-a1c91030eb24"></td>
   </tr>
 </table>
 
