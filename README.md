@@ -299,7 +299,7 @@
 │          ├─command                   : service 
 │          ├─common                    : paging java 파일
 │          ├─controller                : controller
-│          ├─model                     : dao, vo 파일
+│          ├─model                     : DAO, VO 파일
 │          └─mybatis                   : mybatis 설정, mapper xml 파일 / SqlSessionFactory 반환 java 파일
 └─WebContent
     ├─board                            : bootstrap css, js 파일
