@@ -247,3 +247,46 @@
 
 1. 오라클 설치 후 관리자 계정에서 root 폴더의 script.sql 파일 실행 -> src/com/mystudy/mybatis/config.xml에서 DB 설정정보 참고
 2. WEB-INF/lib 폴더에 필요한 library 파일 존재 -> eclipse에서 구동시 build path에 등록 필요
+
+## 패키지 구조
+```
+├─src
+│  └─com
+│      └─mystudy
+│          ├─command
+│          │  ├─cart
+│          │  ├─category
+│          │  ├─member
+│          │  ├─order
+│          │  ├─product
+│          │  ├─qa
+│          │  └─review
+│          ├─common
+│          ├─controller
+│          ├─model
+│          │  ├─dao
+│          │  └─vo
+│          └─mybatis
+└─WebContent
+    ├─board
+    │  ├─css
+    │  └─js
+    ├─cart
+    ├─css
+    ├─img
+    ├─member
+    ├─META-INF
+    ├─order
+    ├─photo
+    │  ├─100
+    │  └─200
+    ├─product
+    │  └─payment
+    │      ├─credit
+    │      ├─foreignCard
+    │      ├─paper
+    │      └─phonePay
+    ├─qa
+    └─WEB-INF
+        └─lib
+```
