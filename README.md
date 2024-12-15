@@ -77,7 +77,7 @@
   <tr>
     <td><b>장바<br>구니<br>관리</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/aa274cef-38d7-4b31-8e02-475ec510817f"></td>
-    <td><b>주문 및<br>목록 <br>조회</b></td>
+    <td><b>주문 및<br>목록<br>조회</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/0893f443-e42b-4742-a1d7-519f5ad24d64"></td>
   </tr>
   <tr>
