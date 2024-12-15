@@ -112,7 +112,7 @@
 
 |기능|화면|
 |:--|:--|
-|회원가입(등록)|<img src="https://github.com/user-attachments/assets/24e0497d-1b9c-4825-a4b3-a1c91030eb24" width="600" height="450">|
+|회원가입(등록)|<img src="https://github.com/user-attachments/assets/24e0497d-1b9c-4825-a4b3-a1c91030eb24">|
 
 - 중복 확인 버튼 클릭 시 아이디 또는 이메일이 미입력이거나 이미 존재하는 경우 해당하는 값에 대한 경고 메시지 표시
 - 중복 확인 버튼 클릭 시 DB 조회 후 DB에 존재하지 않아 사용 가능한 아이디 또는 이메일인 경우 사용 가능 메시지 표시 후 확인 완료 버튼으로 바뀌고 버튼을 비활성화 처리
@@ -122,16 +122,24 @@
 - 가입하기 버튼 클릭 시 중복 확인이 완료되지 않은 경우 경고 메시지 표시
 - 회원가입 성공 시 메인 페이지로 이동 후 가입 완료 메시지 표시
 - 취소 버튼 클릭 시 이전 페이지로 이동
-
-
+---
 
 |:--|:--|
-|로그인|<img src="https://github.com/user-attachments/assets/3afcc437-200e-4a3c-a8bc-5fe1f0f46fb2" width="480" height="360">|
+|로그인|<img src="https://github.com/user-attachments/assets/1eef93c1-e941-4eb3-890e-e329f97ffe00" width="480" height="360">|
 
-|아이디 찾기|<img src="https://github.com/user-attachments/assets/eee8785c-4c20-4f39-a579-1d941e813679" width="480" height="360">||
-|비밀번호 찾기|<img src="https://github.com/user-attachments/assets/184fa7eb-6e55-49b4-9821-fd2bcf801013" width="480" height="360">||
-|내 정보 조회 및 수정|<img src="https://github.com/user-attachments/assets/063f5ba6-b2d5-49ab-888b-4b093eb6c052" width="480" height="360">||
-|탈퇴|<img src="https://github.com/user-attachments/assets/9ac4e5ec-a64e-4c00-8740-40f8af66a69c" width="480" height="360">||
-|회원정보 관리|<img src="https://github.com/user-attachments/assets/12a19cb6-4888-44db-bd6e-a788d84bc493" width="480" height="360">||
+|:--|:--|
+|아이디 찾기|<img src="" width="480" height="360">|
+
+|:--|:--|
+|비밀번호 찾기|<img src="" width="480" height="360">|
+
+|:--|:--|
+|내 정보 조회 및 수정|<img src="" width="480" height="360">|
+
+|:--|:--|
+|탈퇴|<img src="" width="480" height="360">|
+
+|:--|:--|
+|회원정보 관리|<img src="" width="480" height="360">|
 
 ---
