@@ -76,15 +76,15 @@
   </tr>
   <tr>
     <td><b>장바구니 관리</b></td>
-    <td><img src="" width="320" height="240"></td>
+    <td><img src="https://github.com/user-attachments/assets/aa274cef-38d7-4b31-8e02-475ec510817f" width="320" height="240"></td>
     <td><b>주문 및 목록 조회</b></td>
     <td><img src="https://github.com/user-attachments/assets/0893f443-e42b-4742-a1d7-519f5ad24d64" width="320" height="240"></td>
   </tr>
   <tr>
     <td><b>상품 조회</b></td>
-    <td><img src="" width="320" height="240"></td>
+    <td><img src="https://github.com/user-attachments/assets/a9c6140a-8407-4940-8589-c466ccf9fc87" width="320" height="240"></td>
     <td><b>상품 관리</b></td>
-    <td><img src="" width="320" height="240"></td>
+    <td><img src="https://github.com/user-attachments/assets/57ac9922-4cf7-443a-be31-11aa589465a7" width="320" height="240"></td>
   </tr>
   <tr>
     <td><b>문의 조회</b></td>
