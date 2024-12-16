@@ -20,7 +20,7 @@
 
 **개발 툴**
 
-<img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat-square&logo=java&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bracket-blue?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Sql%20Developer%green?style=flat-square&logo=java&logoColor=white"/>
 
 ---
 ## 프로젝트 관련 문서
