@@ -161,7 +161,7 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td><b>회원가입(등록)</b></td>
+    <td><b>회원가입<br>(등록)</b></td>
     <td width="85%"><img src="https://github.com/user-attachments/assets/24e0497d-1b9c-4825-a4b3-a1c91030eb24"></td>
   </tr>
 </table>
