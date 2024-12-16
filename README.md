@@ -285,6 +285,7 @@
 ---
 
 ## 사용법
+❗로컬 환경에서 구동해야 합니다.
 - version : JDK 1.8, oracle 11g (port:1521 / service:XE), Tomcat 9
 - encoding : UTF-8
 - libraries : jstl-1.2, mybatis-3.5.13, ojdbc6
