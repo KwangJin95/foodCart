@@ -198,7 +198,7 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td><b>아이디 찾기</b></td>
+    <td><b>아이디<br>찾기</b></td>
     <td width="85%"><img src="https://github.com/user-attachments/assets/31c3d5b5-bafd-4c90-9970-768a1c0cc9af"></td>
   </tr>
 </table>
@@ -217,7 +217,7 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td><b>비밀번호 찾기</b></td>
+    <td><b>비밀번호<br>찾기</b></td>
     <td width="85%"><img src="https://github.com/user-attachments/assets/2fc549ca-7ab4-46b5-9974-28b797fe187b"></td>
   </tr>
 </table>
@@ -235,7 +235,7 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td><b>내 정보 조회 및 수정</b></td>
+    <td><b>내 정보 조회 및<br>수정</b></td>
     <td width="85%"><img src="https://github.com/user-attachments/assets/8e1f8c6e-c7cc-4364-bdd0-044f84636bd1"></td>
   </tr>
 </table>
@@ -271,7 +271,7 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td><b>회원정보 관리</b></td>
+    <td><b>회원정보<br>관리</b></td>
     <td width="85%"><img src="https://github.com/user-attachments/assets/d6e935fc-a32c-48c1-b6ad-81aeb297e4dc"></td>
   </tr>
 </table>
