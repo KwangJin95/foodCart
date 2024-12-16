@@ -317,4 +317,5 @@
     ├─qa                               : 문의 jsp 파일
     └─WEB-INF
         └─lib                          : 필요 library jar 파일
+script.sql                             : user 생성 및 권한 설정, table, sequence 생성, data 삽입 SQL문 작성 파일
 ```
