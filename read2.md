@@ -215,8 +215,8 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td><b>로그인</b></td>
-    <td width="85%"><img src="https://github.com/user-attachments/assets/1eef93c1-e941-4eb3-890e-e329f97ffe00"></td>
+    <td><b>채널<br>콘텐츠</b></td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/863d1065-d94b-4419-840f-b6816241bf7f"></td>
   </tr>
 </table>
 
@@ -231,8 +231,8 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td><b>아이디<br>찾기</b></td>
-    <td width="85%"><img src="https://github.com/user-attachments/assets/31c3d5b5-bafd-4c90-9970-768a1c0cc9af"></td>
+    <td><b>채널<br>분석</b></td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/cd827dd9-d0d3-47c4-816f-7281d20cc4d5"></td>
   </tr>
 </table>
 
@@ -250,8 +250,8 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td><b>비밀번호<br>찾기</b></td>
-    <td width="85%"><img src="https://github.com/user-attachments/assets/2fc549ca-7ab4-46b5-9974-28b797fe187b"></td>
+    <td><b>채널<br>댓</b></td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/4e4c3517-d8c0-4473-97f7-8525f9f40085"></td>
   </tr>
 </table>
 
