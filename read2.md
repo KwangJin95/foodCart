@@ -54,7 +54,7 @@
   </tr>
   <tr>
     <td width="10%"><b>동영상<br>삭제</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/1a24b2e3-244d-40d7-bec3-2e735076cffd"></td>
   </tr>
 </table>
 
