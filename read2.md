@@ -42,15 +42,15 @@
   </tr>
   <tr>
     <td width="10%"><b>채널<br>목록<br>및<br>상세<br>조회</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/5c696485-3922-45c1-8363-5c6bda616594"></td>
     <td width="10%"><b>채널<br>콘텐츠</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/56720694-194b-4b56-bbe6-c617208140ca"></td>
   </tr>
   <tr>
     <td width="10%"><b>채널<br>분석</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/afde6373-a5e3-4c06-9385-8a3e581c597b"></td>
     <td width="10%"><b>채널<br>댓글</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/933ae00e-0c5b-4133-bafa-b0342f777f9a"></td>
   </tr>
   <tr>
     <td width="10%"><b>동영상<br>삭제</b></td>
