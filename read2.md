@@ -106,7 +106,7 @@
   <tr>
     <td width="10%"><b>댓글<br>목록<br>및<br>상세<br>조회</b></td>
     <td width="40%"><img src=""></td>
-    <td width="10%"><b>댓글<br>등록,<br>수정,<br>,삭제</b></td>
+    <td width="10%"><b>댓글<br>등록,<br>수정,<br>삭제</b></td>
     <td width="40%"><img src=""></td>
   </tr>
   <tr>
