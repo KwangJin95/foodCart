@@ -111,7 +111,7 @@
   </tr>
   <tr>
     <td width="10%"><b>좋아요<br>조회,<br>추가,<br>삭제</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="40%"><img src=""></td>
     <td width="10%"><b>구독<br>목록<br>조회,<br>추가,<br>삭제</b></td>
     <td width="40%"><img src=""></td>
   </tr>
