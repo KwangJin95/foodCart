@@ -19,11 +19,11 @@
 
 **개발 툴**
 
-<img src="https://img.shields.io/badge/Bracket-blue?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/STS3-6F9?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Sql%20Developer-green?style=flat-square&logo=java&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bracket-blue?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/STS3-6F6?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Sql%20Developer-green?style=flat-square&logo=java&logoColor=white"/>
 
 ---
 ## 프로젝트 관련 문서
-<a href="https://drive.google.com/drive/folders/1IiFT1U2YMJfbsPDQK5y7H2NuOwM-2iQ4?usp=drive_link" style="text-decoration: none;">문서 목록 보러가기</a>
+<a href="" style="text-decoration: none;">문서 목록 보러가기</a>
 
 ---
 ## ERD
