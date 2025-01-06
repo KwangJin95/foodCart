@@ -69,51 +69,51 @@
   </tr>
   <tr>
     <td width="10%"><b>회원가입</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/aa274cef-38d7-4b31-8e02-475ec510817f"></td>
+    <td width="40%"><img src=""></td>
     <td width="10%"><b>로그인</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/0893f443-e42b-4742-a1d7-519f5ad24d64"></td>
+    <td width="40%"><img src=""></td>
   </tr>
   <tr>
     <td width="10%"><b>아이디<br>찾기</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/a9c6140a-8407-4940-8589-c466ccf9fc87"></td>
+    <td width="40%"><img src=""></td>
     <td width="10%"><b>비밀<br>번호<br>찾기</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/57ac9922-4cf7-443a-be31-11aa589465a7"></td>
+    <td width="40%"><img src=""></td>
   </tr>
   <tr>
     <td width="10%"><b>회원<br>정보<br>조회</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="40%"><img src=""></td>
     <td width="10%"><b>회원<br>정보<br>수정</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+    <td width="40%"><img src=""></td>
   </tr>
   <tr>
     <td width="10%"><b>동영상<br>목록<br>조회</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="40%"><img src=""></td>
     <td width="10%"><b>동영상<br>상세<br>조회</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+    <td width="40%"><img src=""></td>
   </tr>
   <tr>
     <td width="10%"><b>동영상<br>등록<br></b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="40%"><img src=""></td>
     <td width="10%"><b>동영상<br>수정</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+    <td width="40%"><img src=""></td>
   </tr>
   <tr>
     <td width="10%"><b>문의<br>목록<br>및<br>상세<br>조회</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="40%"><img src=""></td>
     <td width="10%"><b>문의<br>등록</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+    <td width="40%"><img src=""></td>
   </tr>
   <tr>
     <td width="10%"><b>댓글<br>목록<br>및<br>상세<br>조회</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="40%"><img src=""></td>
     <td width="10%"><b>댓글<br>등록,<br>수정,<br>,삭제</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+    <td width="40%"><img src=""></td>
   </tr>
   <tr>
     <td width="10%"><b>좋아요<br>조회,<br>추가,<br>삭제</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
     <td width="10%"><b>구독<br>목록<br>조회,<br>추가,<br>삭제</b></td>
-    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+    <td width="40%"><img src=""></td>
   </tr>
 </table>
 
@@ -250,7 +250,7 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td><b>채널<br>댓</b></td>
+    <td><b>채널<br>댓글</b></td>
     <td width="85%"><img src="https://github.com/user-attachments/assets/4e4c3517-d8c0-4473-97f7-8525f9f40085"></td>
   </tr>
 </table>
@@ -260,61 +260,6 @@
 - 회원정보 조회 결과 입력값에 대한 가입 정보가 없는 경우 로그인 화면으로 이동 후 메시지 표시
 - 회원정보 조회 결과 있는 경우 해당 비밀번호 정보를 메시지로 표시
 - 취소 버튼 클릭 시 로그인 화면으로 이동
----
-
-<table>
-  <tr>
-    <th>기능</th>
-    <th>화면</th>
-  </tr>
-  <tr>
-    <td><b>내 정보 조회 및<br>수정</b></td>
-    <td width="85%"><img src="https://github.com/user-attachments/assets/8e1f8c6e-c7cc-4364-bdd0-044f84636bd1"></td>
-  </tr>
-</table>
-
-- 아이디, 이메일 외에 정보 수정 가능
-- 수정하기 버튼 클릭 시 미입력 값이 있는 경우 해당하는 값에 대한 입력 요청 메시지 표시
-- 수정하기 버튼 클릭 시 새 비밀번호와 새 비밀번호 확인이 불일치한 경우 경고 및 재입력 요청 메시지 표시
-- 수정하기 버튼 클릭 시 핸드폰 번호의 경우 13자리, “010”으로 시작, “-” 문자 입력 및 그 외 자리는 숫자로 입력하지 않은 경우 메시지 표시, 이메일은 “@”를 포함하지 않을 경우 메시지 표시
-- 수정하기 버튼 클릭 시 “회원정보 수정 완료했습니다. 다시 로그인 해주세요.” 메시지 표시 후 로그인 화면으로 이동
-- 취소 버튼 클릭 시 내 정보 조회 화면으로 이동
----
-
-<table>
-  <tr>
-    <th>기능</th>
-    <th>화면</th>
-  </tr>
-  <tr>
-    <td><b>탈퇴</b></td>
-    <td width="85%"><img src="https://github.com/user-attachments/assets/3c1baaa8-c32a-4213-a1f0-ff8208c6fb67"></td>
-  </tr>
-</table>
-
-- 올바르지 않은 비밀번호 입력 후 비밀번호 확인 버튼 클릭 시 경고 및 재입력 요청 메시지 표시
-- 올바른 비밀번호 입력 후 비밀번호 확인 버튼 클릭 시 “탈퇴 버튼을 눌러주십시오.” 메시지 표시 후 비밀번호 확인 버튼이 확인 완료 버튼으로 변경 및 비활성화되고 탈퇴 버튼이 활성화됨
-- 탈퇴 버튼 클릭 시 탈퇴 완료 메시지 표시 후 로그인 화면으로 이동
-- 취소 버튼 클릭 시 내 정보 조회 화면으로 이동
----
-
-<table>
-  <tr>
-    <th>기능</th>
-    <th>화면</th>
-  </tr>
-  <tr>
-    <td><b>회원정보<br>관리</b></td>
-    <td width="85%"><img src="https://github.com/user-attachments/assets/d6e935fc-a32c-48c1-b6ad-81aeb297e4dc"></td>
-  </tr>
-</table>
-
-- 전체보기 외 옵션 선택 후 검색 버튼 클릭 시 키워드 미입력일 경우 경고 메시지 표시
-- 전체보기 외 옵션 선택 후 검색 버튼 클릭 시 핸드폰 번호, 이메일의 경우 입력값 검증 후 경고 메시지 표시
-- 전체보기 외 옵션 선택 후 검색 버튼 클릭 시 가입일 제외 해당 키워드를 포함하는 옵션 정보 검색 후 회원정보 표시
-- 수정하기 버튼 클릭 시 해당 회원 정보 수정 화면으로 이동
-- 삭제하기 버튼 클릭 시 “정말로 삭제하시겠습니까?” 메시지 표시 후 해당 회원 정보 삭제
-- 회원 등록 버튼 클릭 시 회원 등록 화면으로 이동
 ---
 
 ## 사용법
