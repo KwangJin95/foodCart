@@ -4,7 +4,7 @@
 * **이름** : fakeTube (페이크튜브)
 * **기간** : 2주
 * **인원** : 풀스택 7명
-* **소개** : 아이티윌에서 진행한 3차 프로젝트이며, **Spring Web MVC**, **JSP**, **myBatis**를 사용한 개발 및 다양한 타입의 데이터 처리 경험을 목적으로 유튜브 사이트를 모방하여 만든 동영상 플랫폼입니다.
+* **소개** : 아이티윌에서 진행한 3차 프로젝트이며, **Spring Web MVC**, **JSP**와 **myBatis**를 사용한 개발 및 다양한 타입의 데이터 처리 경험을 목적으로 유튜브 사이트를 모방하여 만든 동영상 플랫폼입니다.
 
 ---
 ## 프로젝트 기술스택
@@ -15,11 +15,11 @@
 
 **백엔드**
 
-<img src="https://img.shields.io/badge/Java8-007396?style=flat-square"/> <img src="https://img.shields.io/badge/ORACLE-F80000?style=flat-square"/> <img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square"/> <img src="https://img.shields.io/badge/Apache Tomcat9-F8DC75?style=flat-square"/>
+<img src="https://img.shields.io/badge/Java8-007396?style=flat-square"/> <img src="https://img.shields.io/badge/Spring-6F6?style=flat-square"/> <img src="https://img.shields.io/badge/ORACLE-F80000?style=flat-square"/> <img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square"/> <img src="https://img.shields.io/badge/Apache Tomcat9-F8DC75?style=flat-square"/>
 
 **개발 툴**
 
-<img src="https://img.shields.io/badge/Bracket-blue?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Sql%20Developer-green?style=flat-square&logo=java&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bracket-blue?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/STS3%20IDE-2C2255?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Sql%20Developer-green?style=flat-square&logo=java&logoColor=white"/>
 
 ---
 ## 프로젝트 관련 문서
