@@ -27,7 +27,7 @@
 
 ---
 ## ERD
-![erd](https://github.com/user-attachments/assets/cc73be6d-e192-4ed7-88a1-41bda06fc6f6)
+![erd](https://github.com/user-attachments/assets/a8a76caa-a27f-4596-9eb0-e1ddd362335f)
 
 ---
 ## 주요 기능
