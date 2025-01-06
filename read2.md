@@ -74,21 +74,63 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td width="10%"><b>장바<br>구니<br>관리</b></td>
+    <td width="10%"><b>회원가입</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/aa274cef-38d7-4b31-8e02-475ec510817f"></td>
-    <td width="10%"><b>주문 및<br>목록<br>조회</b></td>
+    <td width="10%"><b>로그인</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/0893f443-e42b-4742-a1d7-519f5ad24d64"></td>
   </tr>
   <tr>
-    <td width="10%"><b>상품<br>조회</b></td>
+    <td width="10%"><b>아이디<br>찾기</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/a9c6140a-8407-4940-8589-c466ccf9fc87"></td>
-    <td width="10%"><b>상품<br>관리</b></td>
+    <td width="10%"><b>비밀<br>번호<br>찾기</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/57ac9922-4cf7-443a-be31-11aa589465a7"></td>
   </tr>
   <tr>
-    <td width="10%"><b>문의<br>조회</b></td>
+    <td width="10%"><b>회원<br>정보<br>조회</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
-    <td width="10%"><b>문의<br>답변</b></td>
+    <td width="10%"><b>회원<br>정보<br>수정</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+  </tr>
+  <tr>
+    <td width="10%"><b>동영상<br>목록<br>조회</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="10%"><b>동영상<br>상세<br>조회</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+  </tr>
+  <tr>
+    <td width="10%"><b>동영상<br>등록<br></b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="10%"><b>동영상<br>수정</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+  </tr>
+  <tr>
+    <td width="10%"><b>문의<br>목록<br>및<br>상세<br>조회</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="10%"><b>문의</b>등록</td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+  </tr>
+  <tr>
+    <td width="10%"><b>댓글<br>목록<br>및<br>상세<br>조회</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="10%"><b>댓글</b>등록,<br>수정,<br>,삭제</td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+  </tr>
+  <tr>
+    <td width="10%"><b>좋아요<br>조회,<br>추가,<br>삭제</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="10%"><b>구독</b>목록<br>조회,<br>추가,<br>삭제</td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+  </tr>
+  <tr>
+    <td width="10%"><b>채널<br>목록<br>및<br>상세<br>조회</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="10%"><b>채널<br>콘텐츠</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
+  </tr>
+  <tr>
+    <td width="10%"><b>채널<br>분석</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+    <td width="10%"><b>채널<br>댓글</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
   </tr>
 </table>
