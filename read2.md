@@ -52,6 +52,10 @@
     <td width="10%"><b>채널<br>댓글</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/1ccba602-55e6-4435-8691-8a99c0696368"></td>
   </tr>
+  <tr>
+    <td width="10%"><b>동영상<br>삭제</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/b0df7dc6-38a4-40cb-b0c9-69749d846255"></td>
+  </tr>
 </table>
 
 ---
