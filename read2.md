@@ -71,35 +71,35 @@
     <td width="10%"><b>회원가입</b></td>
     <td width="40%"><img src=""></td>
     <td width="10%"><b>로그인</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/f01e6a10-4cfa-430e-9c42-9531a7fb4831"></td>
   </tr>
   <tr>
     <td width="10%"><b>아이디<br>찾기</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/e0e6af98-c62d-401c-9cc7-b146c0addef5"></td>
     <td width="10%"><b>비밀<br>번호<br>찾기</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/1cdd8ee1-1d6f-460b-a0d5-eeed39074194"></td>
   </tr>
   <tr>
     <td width="10%"><b>회원<br>정보<br>조회<br>및<br>수정</b></td>
     <td width="40%"><img src=""></td>
     <td width="10%"><b>동영상<br>목록<br>조회</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/98154fee-92c3-47f0-ad7b-523a948110bd"></td>
   </tr>
   <tr>
     <td width="10%"><b>동영상<br>상세<br>조회</b></td>
     <td width="40%"><img src=""></td>
     <td width="10%"><b>동영상<br>등록<br></b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/34795b26-4ad6-4259-84b3-9bf23a6a44c7"></td>
   </tr>
   <tr>
     <td width="10%"><b>동영상<br>수정</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/59f4dd03-58fe-4d7c-bf49-dc368504db8a"></td>
     <td width="10%"><b>댓글<br>목록<br>및<br>상세<br>조회</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/c32b4f3c-d059-4cab-8520-26057405ec6b"></td>
   </tr>
   <tr>
     <td width="10%"><b>댓글<br>등록,<br>수정,<br>삭제</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/b6f3a2ec-38b3-412f-8b7d-9c9dfc471b4e"></td>
     <td width="10%"><b>좋아요<br>조회,<br>추가,<br>삭제</b></td>
     <td width="40%"><img src=""></td>
   </tr>
