@@ -23,7 +23,7 @@
 
 ---
 ## 프로젝트 관련 문서
-<a href="" style="text-decoration: none;">문서 목록 보러가기</a>
+<a href="https://drive.google.com/drive/folders/1mow5Jv0tT8diF5WH87cK6Nr2qDZDVT8n?usp=sharing" style="text-decoration: none;">문서 목록 보러가기</a>
 
 ---
 ## ERD
