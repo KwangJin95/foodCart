@@ -81,7 +81,7 @@
   </tr>
   <tr>
     <td width="10%"><b>회원<br>정보<br>조회<br>및<br>수정</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/d101075a-2836-45f6-9679-4686bd9eee37"></td>
     <td width="10%"><b>동영상<br>목록<br>조회</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/98154fee-92c3-47f0-ad7b-523a948110bd"></td>
   </tr>
