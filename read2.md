@@ -111,9 +111,9 @@
   </tr>
   <tr>
     <td width="10%"><b>문의<br>목록<br>및<br>상세<br>조회</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/efb8af6c-9fd3-4c5d-bcbb-759e8f02fa24"></td>
     <td width="10%"><b>문의<br>등록</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/46de366c-ef09-44b3-bd37-bf72b68da9ff"></td>
   </tr>
 </table>
 
