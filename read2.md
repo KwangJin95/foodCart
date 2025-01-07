@@ -69,7 +69,7 @@
   </tr>
   <tr>
     <td width="10%"><b>회원가입</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/4d1786ca-f64c-42a0-a9d1-1f5bacd38a56"></td>
     <td width="10%"><b>로그인</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/f01e6a10-4cfa-430e-9c42-9531a7fb4831"></td>
   </tr>
