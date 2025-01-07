@@ -87,7 +87,7 @@
   </tr>
   <tr>
     <td width="10%"><b>동영상<br>상세<br>조회</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/526e074c-a1c3-4d1e-bc80-e1d81fef3926"></td>
     <td width="10%"><b>동영상<br>등록<br></b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/34795b26-4ad6-4259-84b3-9bf23a6a44c7"></td>
   </tr>
@@ -101,13 +101,13 @@
     <td width="10%"><b>댓글<br>등록,<br>수정,<br>삭제</b></td>
     <td width="40%"><img src="https://github.com/user-attachments/assets/b6f3a2ec-38b3-412f-8b7d-9c9dfc471b4e"></td>
     <td width="10%"><b>좋아요<br>조회,<br>추가,<br>삭제</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/8444ef50-d6b0-4c6d-ad87-e832e751c2fd"></td>
   </tr>
   <tr>
-    <td width="10%"><b>구독<br>목록<br>조회</b></td>
-    <td width="40%"><img src=""></td>
     <td width="10%"><b>구독<br>추가<br>및<br>삭제</b></td>
-    <td width="40%"><img src=""></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/2d86807e-cee9-4f5b-ab09-0edf0c1d347f"></td>
+    <td width="10%"><b>구독<br>목록<br>조회</b></td>
+    <td width="40%"><img src="https://github.com/user-attachments/assets/6d3723c1-fed3-4d0e-8789-54134f1371dc"></td>
   </tr>
   <tr>
     <td width="10%"><b>문의<br>목록<br>및<br>상세<br>조회</b></td>
