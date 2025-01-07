@@ -195,7 +195,7 @@
   </tr>
   <tr>
     <td><b>채널</b></td>
-    <td width="85%"><img src="https://github.com/user-attachments/assets/24e0497d-1b9c-4825-a4b3-a1c91030eb24"></td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/be615adf-e16a-4146-be32-3a2850789668"></td>
   </tr>
 </table>
 
