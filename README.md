@@ -298,24 +298,24 @@
 ├─src                         
 │  └─com
 │      └─mystudy
-│          ├─command              : service 
-│          ├─common               : paging java 파일
-│          ├─controller           : controller
-│          ├─model                : DAO, VO 파일
-│          └─mybatis              : mybatis 설정, mapper xml 파일 / SqlSessionFactory 반환 java 파일
+│          ├─command        : service 
+│          ├─common         : paging java 파일
+│          ├─controller     : controller
+│          ├─model          : DAO, VO 파일
+│          └─mybatis        : mybatis 설정, mapper xml 파일 / SqlSessionFactory 반환 java 파일
 |
-└─WebContent                      : 기타 jsp 파일
-    ├─board                       : bootstrap css, js 파일
-    ├─cart                        : 장바구니 jsp 파일
-    ├─css                         : 상품 페이지 css 파일
-    ├─img                         : image 파일 / menu, footer jspf 파일 
-    ├─member                      : 회원 jsp 파일
+└─WebContent                : 기타 jsp 파일
+    ├─board                 : bootstrap css, js 파일
+    ├─cart                  : 장바구니 jsp 파일
+    ├─css                   : 상품 페이지 css 파일
+    ├─img                   : image 파일 / menu, footer jspf 파일 
+    ├─member                : 회원 jsp 파일
     ├─META-INF
-    ├─order                       : 주문 jsp 파일
-    ├─photo                       : 상품 image 파일
-    ├─product                     : 상품 jsp 파일
-    ├─qa                          : 문의 jsp 파일
+    ├─order                 : 주문 jsp 파일
+    ├─photo                 : 상품 image 파일
+    ├─product               : 상품 jsp 파일
+    ├─qa                    : 문의 jsp 파일
     └─WEB-INF
-        └─lib                     : 필요 library jar 파일
-script.sql                        : user 생성 및 권한 설정, table, sequence 생성, data 삽입 SQL문 작성 파일
+        └─lib               : 필요 library jar 파일
+script.sql                  : user 생성 및 권한 설정, table, sequence 생성, data 삽입 SQL문 작성 파일
 ```
